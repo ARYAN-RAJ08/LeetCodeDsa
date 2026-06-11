@@ -1,9 +1,7 @@
 class Solution {
     private static final long MOD = 1_000_000_007L;
-
     public int assignEdgeWeights(int[][] edges) {
         int n = edges.length + 1;
-
         List<Integer>[] graph = new ArrayList[n + 1];
         for (int i = 1; i <= n; i++) {
             graph[i] = new ArrayList<>();
